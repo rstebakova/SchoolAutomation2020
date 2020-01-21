@@ -1,0 +1,50 @@
+// A simple example to get you started
+// JUnit assertion - the default Java assertion library
+// https://junit.org/junit5/
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class HikerTest {
+
+    @Test
+    void wordComplexetyHappyPath() {
+        assertEquals(Hiker.getWordComplexity("margarins"), 3.5);
+    }
+    
+      @Test
+    void wordComplexetyCamleCase() {
+        assertEquals(Hiker.getWordComplexity("RabaRbErs"), 4.5);
+    }
+    
+       @Test
+    void wordComplexetyOnlyOneSyllable() {
+        assertEquals(Hiker.getWordComplexity("or"), 1.5);
+    }
+    
+        @Test
+    void wordComplexetyOnlyOneSyllableWithoutR() {
+        assertEquals(Hiker.getWordComplexity("acs"), 0.5);
+    }
+    
+         @Test
+    void wordComplexetyOnlyTwoSyllableWithoutR() {
+        assertEquals(Hiker.getWordComplexity("acis"), 1.0);
+    }
+    // doesn't work with abbreviation 
+            @Test
+    void wordComplexetyAbbreviation() {
+        assertEquals(Hiker.getWordComplexity("CRM"), 1.5);
+    }
+             
+             @Test
+    void wordComplexetyAbbreviationWithoutR() {
+        assertEquals(Hiker.getWordComplexity("CSS"), 0.5);
+    }
+  
+  //// failed esli glasnih bolse soglasnih -imja sobstvennoe - most s gorode Hirosima   
+            @Test
+    void wordComplexetyOnlyA() {
+        assertEquals(Hiker.getWordComplexity("Aija"), 1.0);
+    }
+}
