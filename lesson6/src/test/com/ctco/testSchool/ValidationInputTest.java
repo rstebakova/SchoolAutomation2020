@@ -29,7 +29,7 @@ public class ValidationInputTest {
 
         try {
             myTeam.canDeliverQuality();
-            fail("No expected exception: " + IllegalArgumentException.class.getSimpleName() + "has been thrown");
+            fail("Expected exception because Sprint Days is 0, but should be at least 2");
 
         } catch (IllegalArgumentException e) {
             System.out.println(e);
@@ -53,7 +53,7 @@ public class ValidationInputTest {
 
         try {
             myTeam.canDeliverQuality();
-            fail("No expected exception: " + IllegalArgumentException.class.getSimpleName() + "has been thrown");
+            fail("Expected exception because Sprint Days is 1, but should be at least 2");
 
         } catch (IllegalArgumentException e) {
 
@@ -78,7 +78,7 @@ public class ValidationInputTest {
 
         try {
             myTeam.canDeliverQuality();
-            fail("No expected exception: " + IllegalArgumentException.class.getSimpleName() + "has been thrown");
+            fail("Expected exception because one member has velocity -1, but should be positive");
 
         } catch (IllegalArgumentException e) {
             System.out.println(e);
@@ -102,7 +102,7 @@ public class ValidationInputTest {
 
         try {
             myTeam.canDeliverQuality();
-            fail("No expected exception: " + IllegalArgumentException.class.getSimpleName() + "has been thrown");
+            fail("Expected exception because one member has velocity 2, but can't be more than 1");
 
         } catch (IllegalArgumentException e) {
             System.out.println(e);
