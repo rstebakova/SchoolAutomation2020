@@ -6,12 +6,12 @@ import static org.junit.Assert.fail;
 import java.util.Arrays;
 
 import com.ctco.testSchool.Member.type;
-import org.junit.Assert;
 import org.junit.Test;
 
 public class ValidationInputTest {
 
-    Team myTeam =  new Team();
+    Team myTeam = new Team();
+
     Member first_qa = new Member(type.TEST);
 
     /* Verify exception msg "Sprint should be at least two days long", if Sprint Days  = 0*/
@@ -29,9 +29,9 @@ public class ValidationInputTest {
 
         try {
             myTeam.canDeliverQuality();
-            System.out.println("No exception");
+            fail("No expected exception: " + IllegalArgumentException.class.getSimpleName() + "has been thrown");
 
-        } catch (IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
             System.out.println(e);
             String message = "Sprint should be at least two days long";
             assertEquals(message, e.getMessage());
@@ -53,9 +53,9 @@ public class ValidationInputTest {
 
         try {
             myTeam.canDeliverQuality();
-            System.out.println("No exception");
+            fail("No expected exception: " + IllegalArgumentException.class.getSimpleName() + "has been thrown");
 
-        } catch (IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
 
             System.out.println(e);
             String message = "Sprint should be at least two days long";
@@ -78,9 +78,9 @@ public class ValidationInputTest {
 
         try {
             myTeam.canDeliverQuality();
-            System.out.println("No exception");
+            fail("No expected exception: " + IllegalArgumentException.class.getSimpleName() + "has been thrown");
 
-        } catch (IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
             System.out.println(e);
             String message = "Velocity should be positive";
             assertEquals(message, e.getMessage());
@@ -102,9 +102,9 @@ public class ValidationInputTest {
 
         try {
             myTeam.canDeliverQuality();
-            System.out.println("No exception");
+            fail("No expected exception: " + IllegalArgumentException.class.getSimpleName() + "has been thrown");
 
-        } catch (IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
             System.out.println(e);
             String message = "Velocity can't be more than 1";
             assertEquals(message, e.getMessage());
