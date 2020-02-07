@@ -63,6 +63,7 @@ public class ValidationInputTest {
         }
     }
 
+    /* Verify exception msg "Velocity should be positive", if Velocity = -1*/
     @Test
     public void testValidationInputNegativeVelocity() {
         first_qa.setVelocity(-1);
@@ -86,6 +87,7 @@ public class ValidationInputTest {
         }
     }
 
+    /* Verify exception msg "Velocity should be positive", if Velocity = 2*/
     @Test
     public void testValidationInputMoreThanOneVelocity() {
         first_qa.setVelocity(2);
