@@ -1,0 +1,203 @@
+{
+  "id": "476de99b-b173-40f6-9e35-578a3bb7192b",
+  "version": "2.0",
+  "name": "testCtcolv",
+  "url": "https://ctco.lv",
+  "tests": [{
+    "id": "6ac2aee5-ef24-4cdf-a4c4-1d6b42ca288d",
+    "name": "testFindVacancyTestAutomationEngineer",
+    "commands": [{
+      "id": "19800c52-d8fa-4445-af4d-2561756b2bba",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c58e1e99-0d2a-4738-a418-477653080ad4",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=navbarCollapse",
+      "targets": [
+        ["id=navbarCollapse", "id"],
+        ["css=#navbarCollapse", "css:finder"],
+        ["xpath=//div[@id='navbarCollapse']", "xpath:attributes"],
+        ["xpath=//nav/div[2]", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "5cd29688-132c-4c19-8dd8-326eaa08b79f",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "C.T.Co People",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0873708e-b65c-4990-aa7e-bc0bb678da53",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "233867b5-6eb1-4a07-b6e4-b762d2e20bbd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#menu-item-127 > .reload-page",
+      "targets": [
+        ["css=#menu-item-127 > .reload-page", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-127']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ctco.lv/careers/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": "CAREERS"
+    }, {
+      "id": "37e801fc-64c6-42c3-a07a-a01f3b8bbca8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.table-cell-display > .text-block > h1",
+      "targets": [
+        ["css=.table-cell-display > .text-block > h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Vacancies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c43fcef-e1f5-4f49-ab9a-8c54330695f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-127 > .reload-page",
+      "targets": [
+        ["css=#menu-item-127 > .reload-page", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-127']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ctco.lv/careers/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f6e0bc6-aa7c-44be-8bf0-27f55746b43b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Careers | C.T.Co People",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da7949d8-ef57-45d5-b7cf-9fb7ac4f1603",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(1) h1",
+      "targets": [
+        ["css=.col-sm-12:nth-child(1) h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Vacancies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f383029-5065-4d0f-b3c1-10b2543e3e7f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.table-cell-display > .text-block > h1",
+      "targets": [
+        ["css=.table-cell-display > .text-block > h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Vacancies')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "51a15167-1359-4dcc-9afe-6d7281be6cf8",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Vacancies | C.T.Co People",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b950a73-5a6a-4eb9-af8f-c13db272229b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test Automation Engineer",
+      "targets": [
+        ["linkText=Test Automation Engineer", "linkText"],
+        ["css=#menu-item-3249 > .menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test Automation Engineer')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-3249']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ctco.lv/careers/vacancies/test-automation-engineer-2/')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test Automation Engineer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "043aee01-1c61-40fd-bf52-87e56a8a6aa0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-3249 > .menu-link",
+      "targets": [
+        ["css=#menu-item-3249 > .menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test Automation Engineer')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-3249']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ctco.lv/careers/vacancies/test-automation-engineer-2/')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test Automation Engineer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b18ef9b-8d39-42da-9dbc-5426658e588b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Test Automation Engineer",
+      "targets": [
+        ["linkText=Test Automation Engineer", "linkText"],
+        ["css=#menu-item-3249 > .menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Test Automation Engineer')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-3249']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ctco.lv/careers/vacancies/test-automation-engineer-2/')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test Automation Engineer')]", "xpath:innerText"]
+      ],
+      "value": "Test Automation Engineer"
+    }, {
+      "id": "07bf2b54-d65a-4afc-9745-730b5d7a1d31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(1) h1",
+      "targets": [
+        ["css=.col-sm-12:nth-child(1) h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Vacancies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d8e0f41-ee0d-46a3-a9f1-26a772f5c423",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//p[contains(.,'Professional skills and qualification:')]/following-sibling::p[contains(.,'REST Assured')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2826c9e6-fd0c-46f1-bd63-7d41419a2d84",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//p[contains(.,'Professional skills and qualification:')]/following-sibling::p[contains(.,'Good level in English reading /speaking /writing')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de0a9b40-8c24-4840-9e3e-9377b015d2b5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//p[contains(.,'Professional skills and qualification:')]/following-sibling::p[contains(.,' communication skills')]",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "581aee73-7fff-491d-922b-0c75dcdb9f74",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6ac2aee5-ef24-4cdf-a4c4-1d6b42ca288d"]
+  }],
+  "urls": ["https://ctco.lv/"],
+  "plugins": []
+}

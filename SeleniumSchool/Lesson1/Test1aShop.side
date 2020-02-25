@@ -1,0 +1,400 @@
+{
+  "id": "15bb1e7d-31ed-4818-a680-a3a1bf62cdac",
+  "version": "2.0",
+  "name": "Test1aShop",
+  "url": "https://www.1a.lv",
+  "tests": [{
+    "id": "dc378473-924e-4628-93a4-e29a82dbaa7e",
+    "name": "test1aBuyTeaSpot",
+    "commands": [{
+      "id": "7e531022-3c4a-4320-b53d-ded7a593e542",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98d1a4b4-cb72-416a-8794-86ad64507f02",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1666x956",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "963804e4-6029-4fb2-9ab0-c8dd63bbf3d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.logo img",
+      "targets": [
+        ["css=.logo img", "css:finder"],
+        ["xpath=//img[@alt='logo']", "xpath:img"],
+        ["xpath=//header[@id='new-header']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53746067-cd99-42ce-a947-e4a3f4f7dc6c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.logo img",
+      "targets": [
+        ["css=.logo img", "css:finder"],
+        ["xpath=//img[@alt='logo']", "xpath:img"],
+        ["xpath=//header[@id='new-header']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5485255b-4983-4496-b87e-ea610353ef32",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Lielākais interneta veikals Latvijā - www.1a.lv",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69182663-e5ac-4563-8564-81022e82cc74",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "//div[@class='modal-dialog']",
+      "targets": [],
+      "value": "banner"
+    }, {
+      "id": "14f2e0e3-e7e9-46e4-80e6-1b5f6922fb27",
+      "comment": "",
+      "command": "if",
+      "target": "$(banner)>0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26cd9f0c-7872-46eb-b372-f5fbd2a08c26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ded8451-fdf1-48b7-a5e1-5c1aec2dbd70",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3beebf03-a666-4cc0-b584-1c0bdd961dee",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=new-header",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "b6269394-8455-44ca-84e2-4ed6431bc9d6",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.items",
+      "targets": [],
+      "value": "items"
+    }, {
+      "id": "8c467b1d-ab3f-458e-b692-d68c303d9f43",
+      "comment": "",
+      "command": "if",
+      "target": "$(items)>0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8970899e-796d-4849-a303-bde297cd78cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=main",
+      "targets": [
+        ["id=main", "id"],
+        ["css=#main", "css:finder"],
+        ["xpath=//div[@id='main']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "803b2c3f-51e9-44f0-a2af-102a1078524b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.items",
+      "targets": [
+        ["css=.items", "css:finder"],
+        ["xpath=//div[@id='shopping_cart_container']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1472f2d-2263-448b-9adc-11fe1513c7a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.empty > strong",
+      "targets": [
+        ["css=.empty > strong", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/form/section/table/tbody/tr[2]/td/div/strong", "xpath:idRelative"],
+        ["xpath=//td/div/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Pirkumu grozā nav nevienas preces')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a47d5e1f-c5ab-4079-bcc1-d49dffdb4cd7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Iztīrīt pirkumu grozu",
+      "targets": [
+        ["linkText=Iztīrīt pirkumu grozu", "linkText"],
+        ["css=.ait-remove-all", "css:finder"],
+        ["xpath=//a[contains(text(),'Iztīrīt pirkumu grozu')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/form/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/order/clear_shopping_cart')]", "xpath:href"],
+        ["xpath=//form/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Iztīrīt pirkumu grozu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1751731-daaa-4cad-9757-d86c2c0638c4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.empty > strong",
+      "targets": [
+        ["css=.empty > strong", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/form/section/table/tbody/tr[2]/td/div/strong", "xpath:idRelative"],
+        ["xpath=//td/div/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Pirkumu grozā nav nevienas preces')]", "xpath:innerText"]
+      ],
+      "value": "Pirkumu grozā nav nevienas preces"
+    }, {
+      "id": "cbb144a8-f099-4c02-b8e8-6e5ee2cb2760",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "234c117e-7118-44be-a0e2-fd2863f6e84c",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_products_text_field",
+      "targets": [
+        ["id=search_products_text_field", "id"],
+        ["name=search_text", "name"],
+        ["css=#search_products_text_field", "css:finder"],
+        ["xpath=//input[@id='search_products_text_field']", "xpath:attributes"],
+        ["xpath=//form[@id='autocomplete_form']/div/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9491baed-5955-4190-ba8b-57e41f49f918",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_products_text_field",
+      "targets": [
+        ["id=search_products_text_field", "id"],
+        ["name=search_text", "name"],
+        ["css=#search_products_text_field", "css:finder"],
+        ["xpath=//input[@id='search_products_text_field']", "xpath:attributes"],
+        ["xpath=//form[@id='autocomplete_form']/div/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "tea pot"
+    }, {
+      "id": "7650d334-2035-4d2e-a5ea-bb2fee7fc44a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search_products_text_field",
+      "targets": [
+        ["id=search_products_text_field", "id"],
+        ["name=search_text", "name"],
+        ["css=#search_products_text_field", "css:finder"],
+        ["xpath=//input[@id='search_products_text_field']", "xpath:attributes"],
+        ["xpath=//form[@id='autocomplete_form']/div/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "31648658-2e5d-4d3e-916d-091c8d6b86b8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b152b58-36f3-4a4e-af15-91f4d7569fb2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#search-category-image-grid > .ait-search-result-image-box:nth-child(2) > .ait-search-result-title",
+      "targets": [
+        ["css=#search-category-image-grid > .ait-search-result-image-box:nth-child(2) > .ait-search-result-title", "css:finder"],
+        ["xpath=//div[@id='search-category-image-grid']/a[2]/strong", "xpath:idRelative"],
+        ["xpath=//a[2]/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Tējkannas (ar svilpi)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6313fcda-4fcd-4640-93d0-81a33ebcad71",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#search-category-image-grid > .ait-search-result-image-box:nth-child(2) > .ait-search-result-title",
+      "targets": [
+        ["css=#search-category-image-grid > .ait-search-result-image-box:nth-child(2) > .ait-search-result-title", "css:finder"],
+        ["xpath=//div[@id='search-category-image-grid']/a[2]/strong", "xpath:idRelative"],
+        ["xpath=//a[2]/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Tējkannas (ar svilpi)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae8b5009-ad96-400c-9cc9-b000137d96fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Tējkannas (ar svilpi)",
+      "targets": [
+        ["linkText=Tējkannas (ar svilpi)", "linkText"],
+        ["css=#search-category-image-grid > .ait-search-result-image-box:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='search-category-image-grid']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search/majsaimniecibas_preces/trauki/tejkannas_ar_svilpi/search-text/Tea Pot')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tējkannas (ar svilpi)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b84a9493-d12e-44f1-9941-acd380ff928e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Tējkannas (ar svilpi)",
+      "targets": [
+        ["linkText=Tējkannas (ar svilpi)", "linkText"],
+        ["css=#search-category-image-grid > .ait-search-result-image-box:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='search-category-image-grid']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search/majsaimniecibas_preces/trauki/tejkannas_ar_svilpi/search-text/Tea Pot')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tējkannas (ar svilpi)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78238afc-a6bc-4c1f-bac8-e6c9b6c1936c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#search-category-image-grid > .ait-search-result-image-box:nth-child(2) > .ait-search-result-title",
+      "targets": [
+        ["css=#search-category-image-grid > .ait-search-result-image-box:nth-child(2) > .ait-search-result-title", "css:finder"],
+        ["xpath=//div[@id='search-category-image-grid']/a[2]/strong", "xpath:idRelative"],
+        ["xpath=//a[2]/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Tējkannas (ar svilpi)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad8a5f65-be28-43b2-a118-25fd894bce4a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.title-link > .items",
+      "targets": [
+        ["css=.title-link > .items", "css:finder"],
+        ["xpath=//div[@id='shopping_cart_container']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf43c86-1d57-42c9-a117-ec3b1adbeb35",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ait-search-result-count > span",
+      "targets": [
+        ["css=.ait-search-result-count > span", "css:finder"],
+        ["xpath=//div[@id='new-main']/div/div/div[2]/div/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "611bfa23-4144-4bd1-84d9-6bca3ac04a97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.same-height-left .button > span",
+      "targets": [
+        ["css=.same-height-left .button > span", "css:finder"],
+        ["xpath=//div[@id='product_search_result_grid_container']/div[4]/section/div/div/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47c4955c-ee10-48f8-808c-1aeff39fe211",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#wishlist-header-container .title",
+      "targets": [
+        ["css=#wishlist-header-container .title", "css:finder"],
+        ["xpath=//div[@id='wishlist-header-container']/a/strong", "xpath:idRelative"],
+        ["xpath=//div[2]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Vēlmju saraksts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d8114c6-ffed-475a-9ff2-4b4620e429e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.title-link > .items",
+      "targets": [
+        ["css=.title-link > .items", "css:finder"],
+        ["xpath=//div[@id='shopping_cart_container']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd68d20-b13c-4cd6-bbf5-d140e1f08199",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.items",
+      "targets": [
+        ["css=.items", "css:finder"],
+        ["xpath=//div[@id='shopping_cart_container']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe060b55-8b87-42ee-8ca7-e70bb4ca8226",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.items",
+      "targets": [
+        ["css=.items", "css:finder"],
+        ["xpath=//div[@id='shopping_cart_container']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66cda7f1-7eb7-4cd2-8c68-056800f7e51d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.items",
+      "targets": [
+        ["css=.items", "css:finder"],
+        ["xpath=//div[@id='shopping_cart_container']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": "1"
+    }, {
+      "id": "a94615bb-8fe4-4e20-804a-61dbc1eac8fc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a63415f2-71e9-4956-96b4-d6efbe278ae1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dc378473-924e-4628-93a4-e29a82dbaa7e"]
+  }],
+  "urls": ["https://www.1a.lv/"],
+  "plugins": []
+}

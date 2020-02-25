@@ -10,6 +10,11 @@ public class UserResponse {
     String name;
     String job;
     Instant createdAt;
+    String error ;
+
+    public String getError() {
+        return error;
+    }
 
     public int getId() {
         return id;

@@ -1,0 +1,11 @@
+1. open https://www.ctco.lv
+2. Verify that title is C.T.Co People
+3. Verify that Careers tab is visible. Click
+4. Verify that user is navigated to new Page ->  title is Careers |C.T.Co People .
+5. Verify that Vacancies section link is visible. Click
+6. Verify that user is navigated to new Page -> title is  Vacancies|C.T.Co People 
+7. From sidebar select Test Automation Engineer vacancy . Click
+8. Verify that under Professional skills and qualifications present information:
+	- REST Assured
+	- Good level in English reading /speaking /writing
+	- communication skills;
