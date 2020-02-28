@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="543ed704-0bb7-4d84-9a85-03b0683b0980" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SeleniumSchool/SeleniumSchool.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestFindTeaPotAndAddToCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestOpenCtcoAndAssertTitleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CTCoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CTCoVacancies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CTСoMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test1aBuyTeaSpotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestFindVacancyTestAutomationEngineerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson7-api" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson7-api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson8/main/java/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson8/main/java/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,19 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestFindVacancyTestAutomationEngineerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestOpenCtcoAndAssertTitleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="83" />
+            <state relative-caret-position="187">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,22 +36,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestFindTeaPotAndAddToCart.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CTCoVacancies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="360">
+              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1297#1298#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CTCoPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8041">
-              <caret line="500" column="22" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+            <state relative-caret-position="333">
+              <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,6 +72,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>vacations</find>
+      <find>Vacat</find>
+      <find>By</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -87,6 +89,12 @@
         <option value="$PROJECT_DIR$/src/test/java/TestOpenCtcoAndAssertTitleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testFindTeaPotAndAddToCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFindTeaPotAndAddToCart.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test1aBuyTeaSpotTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CTcoMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CTСoMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CTCoPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestFindVacancyTestAutomationEngineerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CTCoVacancies.java" />
       </list>
     </option>
   </component>
@@ -134,10 +142,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-989" />
+    <option name="y" value="1072" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -162,6 +170,13 @@
               <item name="seleniumtest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumtest" type="b2602c69:ProjectViewProjectNode" />
@@ -208,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestFindTeaPotAndAddToCart.testBuyTeaSpot">
+  <component name="RunManager" selected="JUnit.TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer">
     <configuration name="TestFindTeaPotAndAddToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumtest" />
       <option name="PACKAGE_NAME" value="" />
@@ -228,6 +243,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFindVacancyTestAutomationEngineerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumtest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFindVacancyTestAutomationEngineerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumtest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFindVacancyTestAutomationEngineerTest" />
+      <option name="METHOD_NAME" value="testFindVacancyTestAutomationEngineer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestOpenCtcoAndAssertTitleTest.testOpenCtcoAndAssertTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumtest" />
       <option name="PACKAGE_NAME" value="" />
@@ -240,6 +274,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" />
+        <item itemvalue="JUnit.TestFindVacancyTestAutomationEngineerTest" />
         <item itemvalue="JUnit.TestFindTeaPotAndAddToCart.testBuyTeaSpot" />
         <item itemvalue="JUnit.TestFindTeaPotAndAddToCart" />
         <item itemvalue="JUnit.TestOpenCtcoAndAssertTitleTest.testOpenCtcoAndAssertTitle" />
@@ -260,49 +296,51 @@
       <workItem from="1582488197970" duration="3862000" />
       <workItem from="1582567749897" duration="1049000" />
       <workItem from="1582616811318" duration="1194000" />
+      <workItem from="1582634487624" duration="4118000" />
+      <workItem from="1582810393985" duration="11407000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestOpenCtcoAndAssertTitleTest_testOpenCtcoAndAssertTitle - 2020.02.21 at 17h 11m 01s.xml">
-      <configuration name="TestOpenCtcoAndAssertTitleTest.testOpenCtcoAndAssertTitle" configurationId="JUnit" />
+    <history-entry file="TestFindVacancyTestAutomationEngineerTest_testFindVacancyTestAutomationEngineer - 2020.02.28 at 12h 50m 01s.xml">
+      <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOpenCtcoAndAssertTitleTest_testOpenCtcoAndAssertTitle - 2020.02.21 at 17h 11m 52s.xml">
-      <configuration name="TestOpenCtcoAndAssertTitleTest.testOpenCtcoAndAssertTitle" configurationId="JUnit" />
+    <history-entry file="TestFindVacancyTestAutomationEngineerTest_testFindVacancyTestAutomationEngineer - 2020.02.28 at 12h 54m 18s.xml">
+      <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOpenCtcoAndAssertTitleTest_testOpenCtcoAndAssertTitle - 2020.02.21 at 17h 14m 13s.xml">
-      <configuration name="TestOpenCtcoAndAssertTitleTest.testOpenCtcoAndAssertTitle" configurationId="JUnit" />
+    <history-entry file="TestFindVacancyTestAutomationEngineerTest_testFindVacancyTestAutomationEngineer - 2020.02.28 at 12h 55m 31s.xml">
+      <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindTeaPotAndAddToCart - 2020.02.24 at 12h 55m 11s.xml">
-      <configuration name="TestFindTeaPotAndAddToCart" configurationId="JUnit" />
+    <history-entry file="TestFindVacancyTestAutomationEngineerTest_testFindVacancyTestAutomationEngineer - 2020.02.28 at 12h 57m 05s.xml">
+      <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindTeaPotAndAddToCart - 2020.02.24 at 12h 57m 14s.xml">
-      <configuration name="TestFindTeaPotAndAddToCart" configurationId="JUnit" />
+    <history-entry file="TestFindVacancyTestAutomationEngineerTest_testFindVacancyTestAutomationEngineer - 2020.02.28 at 12h 57m 49s.xml">
+      <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindTeaPotAndAddToCart - 2020.02.24 at 12h 57m 55s.xml">
-      <configuration name="TestFindTeaPotAndAddToCart" configurationId="JUnit" />
+    <history-entry file="TestFindVacancyTestAutomationEngineerTest_testFindVacancyTestAutomationEngineer - 2020.02.28 at 12h 58m 20s.xml">
+      <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindTeaPotAndAddToCart - 2020.02.24 at 12h 58m 17s.xml">
-      <configuration name="TestFindTeaPotAndAddToCart" configurationId="JUnit" />
+    <history-entry file="TestFindVacancyTestAutomationEngineerTest_testFindVacancyTestAutomationEngineer - 2020.02.28 at 13h 00m 47s.xml">
+      <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindTeaPotAndAddToCart - 2020.02.24 at 13h 14m 08s.xml">
-      <configuration name="TestFindTeaPotAndAddToCart" configurationId="JUnit" />
+    <history-entry file="TestFindVacancyTestAutomationEngineerTest_testFindVacancyTestAutomationEngineer - 2020.02.28 at 13h 02m 18s.xml">
+      <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindTeaPotAndAddToCart - 2020.02.24 at 20h 32m 28s.xml">
-      <configuration name="TestFindTeaPotAndAddToCart" configurationId="JUnit" />
+    <history-entry file="TestFindVacancyTestAutomationEngineerTest_testFindVacancyTestAutomationEngineer - 2020.02.28 at 13h 12m 06s.xml">
+      <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindTeaPotAndAddToCart_testBuyTeaSpot - 2020.02.24 at 20h 33m 35s.xml">
-      <configuration name="TestFindTeaPotAndAddToCart.testBuyTeaSpot" configurationId="JUnit" />
+    <history-entry file="TestFindVacancyTestAutomationEngineerTest_testFindVacancyTestAutomationEngineer - 2020.02.28 at 13h 12m 48s.xml">
+      <configuration name="TestFindVacancyTestAutomationEngineerTest.testFindVacancyTestAutomationEngineer" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8631000" />
+    <option name="totallyTimeSpent" value="24156000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-989" y="1072" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16791044" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,7 +374,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>new CTCoPage();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8041">
+          <caret line="500" column="22" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -346,27 +400,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestOpenCtcoAndAssertTitleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="83" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFindTeaPotAndAddToCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8041">
-          <caret line="500" column="22" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestFindTeaPotAndAddToCart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CTСoMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1aBuyTeaSpotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="72" column="41" lean-forward="true" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CTCoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFindVacancyTestAutomationEngineerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CTCoVacancies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
           </folding>
         </state>
       </provider>
