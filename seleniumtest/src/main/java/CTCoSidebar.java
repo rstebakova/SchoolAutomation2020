@@ -55,7 +55,7 @@ public class CTCoPage {
         throw new AssertionError("Menu item not found");
     }
 
-    public CTCoVacancies openVacancies() {
+     public CTCoVacancies openVacancies() {
         hoverMenu("CAREERS").open("VACANCIES");
         return new CTCoVacancies(driver);
     }
